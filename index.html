@@ -10,334 +10,189 @@
 	<title>Sofia Lisina: about me</title>
 
 	<!-- Bootstrap CSS & JS-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 	<style type='text/css'>
-	.act{background-color:rgb(133, 64, 245); color: white};
+		.act {
+			background-color: rgb(133, 64, 245);
+			color: white
+		}
 	</style>
 </head>
 <body style='margin-top: 60px'>
-<header data-bs-theme="dark">
-    <div class="navbar fixed-top navbar-dark bg-dark shadow-sm">
-    <div class="container">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#6f42c1" class="bi bi-person-circle" viewBox="0 0 16 16">
-  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-</svg>&nbsp;
-        <strong>About Me</strong>
-      </a>
-      <a href="photos.html" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="#0d6efd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        <strong>Photos</strong>
-      </a>
-	  
-	  <a href="works.html" class="navbar-brand d-flex align-items-center">
-        <svg fill="none" height="32" stroke="#ab296a" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
-		<path d="m0 5c0-2.76142 2.23858-5 5-5h22c2.7614 0 5 2.23858 5 5v22c0 2.7614-2.2386 5-5 5h-22c-2.76142 0-5-2.2386-5-5z" fill="#000b1d"/>
-		<g fill="#ab296a">
-		<path d="m18.2157 15.244 1.3088.0386.0145 6.8959c0 .1114.0493.1672.1486.1672h2.1146c.0745 0 .1209-.0186.1395-.0558.0178-.0344.0273-.0726.0277-.1114l-.0145-6.8959h1.8151c.1114.0001.1672-.0432.1672-.13v-1.6351c.0027-.0391-.0071-.0782-.028-.1114-.0186-.0248-.0652-.0371-.1392-.0371h-1.8151v-.7428c-.0104-.2807.0306-.5608.1208-.8267.0653-.1866.1977-.3423.3715-.4366.2351-.0897.4852-.1339.7369-.13h.2785c.099 0 .3018.0063.3885.0186.0992.0248.1488-.0061.1488-.0929v-1.83914c.001-.0408-.0111-.08084-.0345-.11426s-.0569-.05846-.0956-.07145c-.1751-.05226-.3551-.08652-.5372-.10223-.1789-.01947-.3588-.02876-.5388-.02782-.6422-.03137-1.2783.13737-1.8205.48294-.454.31706-.8186.74566-1.0588 1.24466-.1407.298-.2407.6135-.2974.9382-.0644.552-.0953 1.1073-.0926 1.6631v.0364l-1.3088-.0144c-.0177-.0025-.0357-.0009-.0526.0048-.017.0056-.0323.0151-.045.0277-.0126.0127-.0221.028-.0278.045-.0056.0169-.0073.0349-.0048.0526v1.6293c0 .0742.0434.1177.1302.13z"/>
-		<path clip-rule="evenodd" d="m8 10.2575v11.8705c0 .099.04339.1486.13019.1486h2.17401c.0227.0032.0459.0011.0676-.0062.0218-.0072.0415-.0195.0578-.0357.0162-.0162.0284-.036.0357-.0577.0072-.0218.0093-.0449.0061-.0676v-3.6596c.2228 0 .39.0032.5016.0093.1111.0062.303.0093.5756.0093.8861.0115 1.767-.1364 2.6008-.4366.748-.2665 1.3964-.756 1.8575-1.4025.4819-.7245.7225-1.5827.6874-2.4521.0017-.5099-.0863-1.0161-.2599-1.4955-.1837-.4925-.4721-.9393-.8453-1.3095-.4402-.4272-.9702-.7509-1.5513-.9474-.7662-.2543-1.5707-.3738-2.3777-.3531-.3466.0001-.6965.0032-1.0495.0094-.353.0063-.68735.0125-1.0031.0186-.316.0062-.61018.0124-.88254.0185-.27261.0064-.4156.0093-.61342.0093-.07428 0-.11154.0435-.11154.13zm2.4714 5.9445v-3.8454c.0863-.0121.2442-.0214.4737-.0278.2291-.0062.4922-.0093.7894-.0093.463-.0146.9243.0644 1.3561.2323.3307.1316.6128.3619.808.6594.1858.3078.2793.6624.2694 1.0217.0258.4269-.1027.8488-.3621 1.1889-.2506.2909-.5796.5038-.9477.6131-.4306.1297-.8786.1923-1.3282.1857h-.6129c-.1363.0001-.2849-.0061-.4457-.0186z" fill-rule="evenodd"/></g></svg>&nbsp;
-        <strong>Portfolio</strong>
-      </a>
-      
-	  <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-    </div>
-  </div>
-</header>
-
-
-<main>
-<div class='container'>
-	<div class='row'>
-		<div class="col-md-6 col-sm-12">
-		<h2 style='color: #6f42c1; font-weight: 600'> Sofia Lisina, M.Sc.</h2> 
-		<h5 style='color: #6f42c1; font-weight: 500'> Interests:&nbsp;
-Graphical design | UX/UI | Brand design | Digital marketing </h5>
-		<p>I am a researcher from Åbo Akademi University, working with bionanomaterials and 3D printing for drug delivery applications. 
-		I was always fascinated by the art world, in particular well-known artists Frida Kahlo, Salvador Dali, Pablo Picasso. In my current work, I am trying to be creative, to think boldly, and to implement graphic design for better visualisation. In addition to my love to science, I want to boost my art skills further and to work as a graphical/brand designer in a foreseeable future.
-		</p>
-		
-		<div class='row g-3'> 
-		
-		<ul class="list-group list-group">
-		<li class="list-group-item act">Skills</li>
-  <li class="list-group-item">
-  <table class="table table-sm">
-			<tbody>
-			<tr><td>
-			  <span title="Adobe Illustrator"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="32" height="32" viewBox="0 0 240 234">
-  <path fill="#300" d="M42.5 0h155C221 0 240 19 240 42.5v149c0 23.5-19 42.5-42.5 42.5h-155C19 234 0 215 0 191.5v-149C0 19 19 0 42.5 0z"/>
-  <path fill="#ff9a00" d="M116 140H78.8l-7.6 23.5c-.2.9-1 1.5-1.9 1.4H50.5c-1.1 0-1.4-.6-1.1-1.8l32.2-92.7c.3-1 .6-2.1 1-3.3.4-2.1.6-4.3.6-6.5-.1-.5.3-1 .8-1.1h25.9c.8 0 1.2.3 1.3.8l36.5 103c.3 1.1 0 1.6-1 1.6h-20.9c-.7.1-1.4-.4-1.6-1.1L116 140zm-31.4-20.3H110c-.6-2.1-1.4-4.6-2.3-7.2-.9-2.7-1.8-5.6-2.7-8.6-1-3.1-1.9-6.1-2.9-9.2s-1.9-6-2.7-8.9c-.8-2.8-1.5-5.4-2.2-7.8H97c-.9 4.3-2 8.6-3.4 12.9-1.5 4.8-3 9.8-4.6 14.8-1.4 5.1-2.9 9.8-4.4 14zM170 77c-3.3.1-6.5-1.2-8.9-3.5-2.3-2.5-3.5-5.8-3.4-9.2-.1-3.4 1.2-6.6 3.6-8.9s5.6-3.5 8.9-3.5c3.9 0 6.9 1.2 9.1 3.5 2.2 2.4 3.4 5.6 3.3 8.9.1 3.4-1.1 6.7-3.5 9.2-2.3 2.4-5.7 3.7-9.1 3.5zm-11.2 86.8v-77c0-1 .4-1.4 1.3-1.4h19.8c.9 0 1.3.5 1.3 1.4v77c0 1.1-.4 1.6-1.3 1.6h-19.6c-1 0-1.5-.6-1.5-1.6z"/>
-</svg></span> Adobe Illustrator</td>
-			  <td><span title='Adobe Photoshop'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 234" xml:space="preserve" width="32" height="32">
-<path fill="#001E36" d="M42.5,0h155C221,0,240,19,240,42.5v149c0,23.5-19,42.5-42.5,42.5h-155C19,234,0,215,0,191.5v-149C0,19,19,0,42.5,0z"/>
-<path fill="#31A8FF" d="M54,164.1V61.2c0-0.7,0.3-1.1,1-1.1c1.7,0,3.3,0,5.6-0.1c2.4-0.1,4.9-0.1,7.6-0.2c2.7-0.1,5.6-0.1,8.7-0.2
-	c3.1-0.1,6.1-0.1,9.1-0.1c8.2,0,15,1,20.6,3.1c5,1.7,9.6,4.5,13.4,8.2c3.2,3.2,5.7,7.1,7.3,11.4c1.5,4.2,2.3,8.5,2.3,13
-	c0,8.6-2,15.7-6,21.3c-4,5.6-9.6,9.8-16.1,12.2c-6.8,2.5-14.3,3.4-22.5,3.4c-2.4,0-4,0-5-0.1c-1-0.1-2.4-0.1-4.3-0.1v32.1
-	c0.1,0.7-0.4,1.3-1.1,1.4c-0.1,0-0.2,0-0.4,0H55.2C54.4,165.4,54,165,54,164.1z M75.8,79.4V113c1.4,0.1,2.7,0.2,3.9,0.2H85
-	c3.9,0,7.8-0.6,11.5-1.8c3.2-0.9,6-2.8,8.2-5.3c2.1-2.5,3.1-5.9,3.1-10.3c0.1-3.1-0.7-6.2-2.3-8.9c-1.7-2.6-4.1-4.6-7-5.7
-	c-3.7-1.5-7.7-2.1-11.8-2c-2.6,0-4.9,0-6.8,0.1C77.9,79.2,76.5,79.3,75.8,79.4L75.8,79.4z"/>
-<path fill="#31A8FF" d="M192,106.9c-3-1.6-6.2-2.7-9.6-3.4c-3.7-0.8-7.4-1.3-11.2-1.3c-2-0.1-4.1,0.2-6,0.7c-1.3,0.3-2.4,1-3.1,2
-	c-0.5,0.8-0.8,1.8-0.8,2.7c0,0.9,0.4,1.8,1,2.6c0.9,1.1,2.1,2,3.4,2.7c2.3,1.2,4.7,2.3,7.1,3.3c5.4,1.8,10.6,4.3,15.4,7.3
-	c3.3,2.1,6,4.9,7.9,8.3c1.6,3.2,2.4,6.7,2.3,10.3c0.1,4.7-1.3,9.4-3.9,13.3c-2.8,4-6.7,7.1-11.2,8.9c-4.9,2.1-10.9,3.2-18.1,3.2
-	c-4.6,0-9.1-0.4-13.6-1.3c-3.5-0.6-7-1.7-10.2-3.2c-0.7-0.4-1.2-1.1-1.1-1.9v-17.4c0-0.3,0.1-0.7,0.4-0.9
-	c0.3-0.2,0.6-0.1,0.9,0.1c3.9,2.3,8,3.9,12.4,4.9c3.8,1,7.8,1.5,11.8,1.5c3.8,0,6.5-0.5,8.3-1.4c1.6-0.7,2.7-2.4,2.7-4.2
-	c0-1.4-0.8-2.7-2.4-4c-1.6-1.3-4.9-2.8-9.8-4.7c-5.1-1.8-9.8-4.2-14.2-7.2c-3.1-2.2-5.7-5.1-7.6-8.5c-1.6-3.2-2.4-6.7-2.3-10.2
-	c0-4.3,1.2-8.4,3.4-12.1c2.5-4,6.2-7.2,10.5-9.2c4.7-2.4,10.6-3.5,17.7-3.5c4.1,0,8.3,0.3,12.4,0.9c3,0.4,5.9,1.2,8.6,2.3
-	c0.4,0.1,0.8,0.5,1,0.9c0.1,0.4,0.2,0.8,0.2,1.2v16.3c0,0.4-0.2,0.8-0.5,1C192.9,107.1,192.4,107.1,192,106.9z"/>
-</svg></span> Adobe Photoshop</td><td><span title='Figma'>
-	<svg width="32" height="32" viewBox="0 0 288 432" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="95.0226" height="142.534" fill="black" fill-opacity="0" transform="translate(1.46603 2.19946) scale(3)"/>
-<path d="M144 216C144 176.641 175.907 144.733 215.267 144.733V144.733C254.626 144.733 286.534 176.641 286.534 216V216C286.534 255.36 254.626 287.267 215.267 287.267V287.267C175.907 287.267 144 255.36 144 216V216Z" fill="#1ABCFE"/>
-<path d="M1.46603 358.534C1.46603 319.175 33.3733 287.267 72.733 287.267H144V358.534C144 397.894 112.093 429.801 72.733 429.801V429.801C33.3733 429.801 1.46603 397.894 1.46603 358.534V358.534Z" fill="#0ACF83"/>
-<path d="M144 2.19946V144.733H215.267C254.627 144.733 286.534 112.826 286.534 73.4664V73.4664C286.534 34.1068 254.627 2.19946 215.267 2.19946L144 2.19946Z" fill="#FF7262"/>
-<path d="M1.46603 73.4664C1.46603 112.826 33.3733 144.733 72.733 144.733L144 144.733L144 2.19941L72.733 2.19941C33.3733 2.19941 1.46603 34.1067 1.46603 73.4664V73.4664Z" fill="#F24E1E"/>
-<path d="M1.46603 216C1.46603 255.36 33.3733 287.267 72.733 287.267H144L144 144.733L72.733 144.733C33.3733 144.733 1.46603 176.641 1.46603 216V216Z" fill="#A259FF"/>
-</svg></span> Figma
-</td>
-
-			</tr>
-			<tr>
-			  
-			  <td><span title='MS Word'>
-<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1881.25 1750" width="32" height="32" xml:space="preserve">
-<path fill="#41A5EE" d="M1801.056,0H517.694C473.404,0,437.5,35.904,437.5,80.194c0,0,0,0,0,0V437.5l743.75,218.75l700-218.75
-	V80.194C1881.25,35.904,1845.346,0,1801.056,0L1801.056,0z"/>
-<path fill="#2B7CD3" d="M1881.25,437.5H437.5V875l743.75,131.25l700-131.25V437.5z"/>
-<path fill="#185ABD" d="M437.5,875v437.5l700,87.5l743.75-87.5V875H437.5z"/>
-<path fill="#103F91" d="M517.694,1750h1283.363c44.29,0,80.194-35.904,80.194-80.194l0,0V1312.5H437.5v357.306
-	C437.5,1714.096,473.404,1750,517.694,1750L517.694,1750z"/>
-<path opacity="0.1" enable-background="new    " d="M969.806,350H437.5v1093.75h532.306c44.23-0.144,80.05-35.964,80.194-80.194
-	V430.194C1049.856,385.964,1014.036,350.144,969.806,350z"/>
-<path opacity="0.2" enable-background="new    " d="M926.056,393.75H437.5V1487.5h488.556c44.23-0.144,80.05-35.964,80.194-80.194
-	V473.944C1006.106,429.714,970.286,393.894,926.056,393.75z"/>
-<path opacity="0.2" enable-background="new    " d="M926.056,393.75H437.5V1400h488.556c44.23-0.144,80.05-35.964,80.194-80.194
-	V473.944C1006.106,429.714,970.286,393.894,926.056,393.75z"/>
-<path opacity="0.2" enable-background="new    " d="M882.306,393.75H437.5V1400h444.806c44.23-0.144,80.05-35.964,80.194-80.194
-	V473.944C962.356,429.714,926.536,393.894,882.306,393.75z"/>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="167.2057" y1="1420.9117" x2="795.2943" y2="333.0883" gradientTransform="matrix(1 0 0 -1 0 1752)">
-	<stop  offset="0" style="stop-color:#2368C4"/>
-	<stop  offset="0.5" style="stop-color:#1A5DBE"/>
-	<stop  offset="1" style="stop-color:#1146AC"/>
-</linearGradient>
-<path fill="url(#SVGID_1_)" d="M80.194,393.75h802.112c44.29,0,80.194,35.904,80.194,80.194v802.113
-	c0,44.29-35.904,80.194-80.194,80.194H80.194c-44.29,0-80.194-35.904-80.194-80.194V473.944C0,429.654,35.904,393.75,80.194,393.75z
-	"/>
-<path fill="#FFFFFF" d="M329.088,1008.788c1.575,12.381,2.625,23.144,3.106,32.375h1.837c0.7-8.75,2.158-19.294,4.375-31.631
-	c2.217-12.338,4.215-22.765,5.994-31.281l84.35-363.913h109.069l87.5,358.444c5.084,22.288,8.723,44.881,10.894,67.637h1.444
-	c1.631-22.047,4.671-43.966,9.1-65.625l69.781-360.631h99.269l-122.588,521.5H577.238L494.113,790.3
-	c-2.406-9.931-5.162-22.925-8.181-38.894c-3.019-15.969-4.9-27.65-5.644-35h-1.444c-0.962,8.487-2.844,21.088-5.644,37.8
-	c-2.8,16.713-5.046,29.079-6.738,37.1l-78.138,344.269h-117.95L147.131,614.337h101.062l75.994,364.656
-	C325.894,986.475,327.513,996.45,329.088,1008.788z"/>
-</svg></span> Microsoft Word</td>
-			  <td><span title='MS Excel'>
-<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 2289.75 2130" width="32" height="32" xml:space="preserve">
-<path fill="#185C37" d="M1437.75,1011.75L532.5,852v1180.393c0,53.907,43.7,97.607,97.607,97.607l0,0h1562.036
-	c53.907,0,97.607-43.7,97.607-97.607l0,0V1597.5L1437.75,1011.75z"/>
-<path fill="#21A366" d="M1437.75,0H630.107C576.2,0,532.5,43.7,532.5,97.607c0,0,0,0,0,0V532.5l905.25,532.5L1917,1224.75
-	L2289.75,1065V532.5L1437.75,0z"/>
-<path fill="#107C41" d="M532.5,532.5h905.25V1065H532.5V532.5z"/>
-<path opacity="0.1" enable-background="new    " d="M1180.393,426H532.5v1331.25h647.893c53.834-0.175,97.432-43.773,97.607-97.607
-	V523.607C1277.825,469.773,1234.227,426.175,1180.393,426z"/>
-<path opacity="0.2" enable-background="new    " d="M1127.143,479.25H532.5V1810.5h594.643
-	c53.834-0.175,97.432-43.773,97.607-97.607V576.857C1224.575,523.023,1180.977,479.425,1127.143,479.25z"/>
-<path opacity="0.2" enable-background="new    " d="M1127.143,479.25H532.5V1704h594.643c53.834-0.175,97.432-43.773,97.607-97.607
-	V576.857C1224.575,523.023,1180.977,479.425,1127.143,479.25z"/>
-<path opacity="0.2" enable-background="new    " d="M1073.893,479.25H532.5V1704h541.393c53.834-0.175,97.432-43.773,97.607-97.607
-	V576.857C1171.325,523.023,1127.727,479.425,1073.893,479.25z"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="203.5132" y1="1729.0183" x2="967.9868" y2="404.9817" gradientTransform="matrix(1 0 0 -1 0 2132)">
-	<stop  offset="0" style="stop-color:#18884F"/>
-	<stop  offset="0.5" style="stop-color:#117E43"/>
-	<stop  offset="1" style="stop-color:#0B6631"/>
-</linearGradient>
-<path fill="url(#SVGID_2_)" d="M97.607,479.25h976.285c53.907,0,97.607,43.7,97.607,97.607v976.285
-	c0,53.907-43.7,97.607-97.607,97.607H97.607C43.7,1650.75,0,1607.05,0,1553.143V576.857C0,522.95,43.7,479.25,97.607,479.25z"/>
-<path fill="#FFFFFF" d="M302.3,1382.264l205.332-318.169L319.5,747.683h151.336l102.666,202.35
-	c9.479,19.223,15.975,33.494,19.49,42.919h1.331c6.745-15.336,13.845-30.228,21.3-44.677L725.371,747.79h138.929l-192.925,314.548
-	L869.2,1382.263H721.378L602.79,1160.158c-5.586-9.45-10.326-19.376-14.164-29.66h-1.757c-3.474,10.075-8.083,19.722-13.739,28.755
-	l-122.102,223.011H302.3z"/>
-<path fill="#33C481" d="M2192.143,0H1437.75v532.5h852V97.607C2289.75,43.7,2246.05,0,2192.143,0L2192.143,0z"/>
-<path fill="#107C41" d="M1437.75,1065h852v532.5h-852V1065z"/>
-</svg></span>
- Microsoft Excel</td>
-			  <td>
-<span title='MS PowerPoint'>
-<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1919.95 1786" width="32" height="32" xml:space="preserve">
-<path fill="#ED6C47" d="M1160.9,982.3L1026.95,0h-10.002C529.872,1.422,135.372,395.922,133.95,882.998V893L1160.9,982.3z"/>
-<path fill="#FF8F6B" d="M1036.952,0h-10.002v893l446.5,178.6l446.5-178.6v-10.002C1918.528,395.922,1524.028,1.422,1036.952,0z"/>
-<path fill="#D35230" d="M1919.95,893v9.823c-1.398,487.185-395.992,881.779-883.177,883.177h-19.646
-	c-487.185-1.398-881.779-395.992-883.177-883.177V893H1919.95z"/>
-<path opacity="0.1" enable-background="new    " d="M1071.6,438.909v952.831c-0.222,33.109-20.286,62.852-50.901,75.458
-	c-9.748,4.123-20.224,6.249-30.809,6.251H344.698c-12.502-14.288-24.557-29.469-35.72-44.65
-	c-113.755-151.749-175.176-336.324-175.028-525.977v-19.646c-0.261-171.062,49.733-338.433,143.773-481.327
-	c9.823-15.181,20.092-30.362,31.255-44.65h680.912C1034.876,357.54,1071.26,393.924,1071.6,438.909z"/>
-<path opacity="0.2" enable-background="new    " d="M1026.95,483.56v952.831c-0.002,10.584-2.128,21.061-6.251,30.808
-	c-12.606,30.615-42.35,50.679-75.459,50.901H385.329c-14.127-14.342-27.682-29.237-40.632-44.65
-	c-12.502-14.288-24.557-29.469-35.72-44.65c-113.755-151.749-175.176-336.325-175.028-525.977v-19.646
-	c-0.261-171.062,49.733-338.433,143.773-481.327H945.24C990.226,402.19,1026.61,438.574,1026.95,483.56z"/>
-<path opacity="0.2" enable-background="new    " d="M1026.95,483.56v863.531c-0.34,44.985-36.724,81.369-81.709,81.71H308.978
-	c-113.755-151.749-175.176-336.325-175.028-525.977v-19.646c-0.261-171.062,49.733-338.433,143.773-481.327H945.24
-	C990.226,402.19,1026.61,438.574,1026.95,483.56z"/>
-<path opacity="0.2" enable-background="new    " d="M982.3,483.56v863.531c-0.34,44.985-36.724,81.369-81.709,81.71H308.978
-	c-113.755-151.749-175.176-336.325-175.028-525.977v-19.646c-0.261-171.062,49.733-338.433,143.773-481.327h622.867
-	C945.576,402.19,981.96,438.574,982.3,483.56z"/>
-<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="170.6454" y1="1450.1008" x2="811.6547" y2="339.8992" gradientTransform="matrix(1 0 0 -1 0 1788)">
-	<stop  offset="0" style="stop-color:#CA4C28"/>
-	<stop  offset="0.5" style="stop-color:#C5401E"/>
-	<stop  offset="1" style="stop-color:#B62F14"/>
-</linearGradient>
-<path fill="url(#SVGID_3_)" d="M81.843,401.85h818.613c45.201,0,81.843,36.643,81.843,81.843v818.613
-	c0,45.201-36.643,81.844-81.843,81.844H81.843C36.643,1384.15,0,1347.507,0,1302.307V483.693C0,438.493,36.643,401.85,81.843,401.85
-	z"/>
-<path fill="#FFFFFF" d="M500.08,620.144c53.289-3.596,106.119,11.883,149.042,43.668c35.8,31.961,54.929,78.599,51.883,126.493
-	c0.585,33.294-8.287,66.071-25.584,94.524c-17.512,27.964-42.742,50.263-72.646,64.207c-34.187,15.9-71.564,23.751-109.259,22.95
-	H389.973v192.441H283.929V620.144H500.08z M389.884,888.848h91.265c28.933,2.125,57.641-6.438,80.683-24.066
-	c19.058-18.282,29.047-44.063,27.281-70.413c0-59.98-34.857-89.97-104.57-89.97h-94.658V888.848z"/>
-</svg></span>
- Microsoft PowerPoint</td>
-			</tr>
-<tr> <td> 
-<span title='Autodesk Fusion 360'>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="32" height="32"
-	 viewBox="0 0 450 450" style="enable-background:new 0 0 640 480;" xml:space="preserve">
-	<path fill="#FFFFFF" d="M201.74,72.8c36.85,0,73.69-0.04,110.54,0.01c-0.26,10.34,0.43,20.91-0.32,31.1
-		c-22.31,0.14-44.63,0.01-66.95,0.05c0.04,13.81-0.09,27.62,0.07,41.42c18.95-0.07,37.89-0.02,56.84-0.02v30.61
-		c-18.97,0.02-37.94,0-56.91,0.01v69.87c-14.43,0-28.84,0.01-43.27-0.01V72.8z"/>
-	<path fill="#FFFFFF" d="M169.89,352.38c7.61-6.91,19.05-7.9,28.62-5.17c5.94,1.66,11.8,6.02,12.92,12.42
-		c0.43,3.73,0.83,8.02-1.53,11.24c-2.39,3.46-6.43,5.28-10.39,6.27c5.87,1.13,12.17,4.46,13.85,10.63
-		c1.11,5.98,0.88,12.94-3.44,17.67c-5.16,5.86-13.29,7.9-20.82,8.1c-6.69-0.12-13.82-1.23-19.18-5.56c-4.14-3.2-6.15-8.31-7.2-13.28
-		c5.11-0.47,10.24-0.1,15.37-0.25c1.21,7.54,11.17,9.71,16.71,5.5c3.27-2.71,3.12-7.69,2.13-11.42c-2.85-5.83-10.4-5.13-15.82-5.1
-		c-0.01-3.69-0.01-7.36,0-11.04c3.69-0.09,7.57,0.46,11.05-1.06c4.1-1.96,4.32-7.79,2.42-11.34c-4.41-5.26-14.79-2.73-15.23,4.58
-		c-5.15,0.02-10.3,0.05-15.45-0.03C164.66,360.03,166.37,355.48,169.89,352.38"/>
-	<path fill="#FFFFFF" d="M232.34,349.21c8.15-4.34,18.22-4.24,26.79-1.16c6.67,2.41,11.23,8.99,11.36,16.05
-		c-4.74,0-9.49,0.05-14.23-0.03c-0.98-7.5-11.63-8.65-16.36-4.08c-3.51,4.24-2.15,10.07-2.42,15.11c8.74-8.33,25.33-6.89,31.71,3.67
-		c2.89,4.6,2.95,10.28,2.6,15.52c-0.53,7.57-5.97,14.22-12.92,16.98c-8.19,3.22-17.76,3.16-25.81-0.46
-		c-6.76-3.06-11.32-10.08-11.63-17.46c-0.14-8.32-0.05-16.63-0.04-24.95C221.47,360.7,225.46,352.92,232.34,349.21 M237.5,385.83
-		c0.21,4.08-0.87,8.62,1.43,12.32c3.12,4.2,9.76,4.35,13.82,1.52c3.65-3.14,3.28-8.55,2.77-12.88c-0.53-3.89-4.77-6.05-8.41-5.48
-		C243.39,381.35,240.11,383.29,237.5,385.83"/>
-	<path fill="#FFFFFF" d="M298.31,346.62c8.04-1.52,17.01-0.95,24,3.66c6.21,4.18,8.82,11.97,8.71,19.21
-		c-0.12,7.92,0.19,15.87-0.16,23.79c-0.49,7.77-5.28,15.37-12.76,18.09c-8.98,3.38-19.74,3.1-28.07-1.89
-		c-6.32-3.82-9.47-11.26-9.54-18.44c-0.05-6.84,0.02-13.68-0.03-20.53c-0.05-5.59,0.96-11.5,4.49-15.99
-		C288.19,350.3,293.17,347.7,298.31,346.62 M302.2,357.98c-3.81,1.27-5.42,5.5-5.53,9.21c-0.16,7.56-0.01,15.13-0.08,22.69
-		c-0.02,3.65,0.56,7.95,3.77,10.21c4.41,2.67,11.77,1.85,13.57-3.63c1.76-5.94,0.63-12.24,0.95-18.35
-		c-0.3-5.58,0.98-11.6-1.56-16.82C311.28,357.35,306.05,356.57,302.2,357.98"/>
-	<path fill="#FF6B00" d="M88.57,3.2c3.04,0.27,6.09,0.23,9.14,0.19c94.27,0,188.53,0.01,282.81,0c3.9,0.05,7.87-0.24,11.72,0.67
-		c9.34,2.53,16.29,11.77,16.17,21.46c0.03,15.69,0,31.38,0.01,47.07c-0.02,81.06,0.03,162.12-0.02,243.18
-		c-106.7,0.12-213.39-0.1-320.09,0.11c-0.01-79.27,0-158.53-0.01-237.79c1.13-17.87,0.35-35.8,0.58-53.7
-		c-0.1-6.95,0.27-13.92-0.28-20.86L88.57,3.2z M201.74,72.8v173.05c14.43,0.02,28.84,0.01,43.27,0.01v-69.87
-		c18.97-0.01,37.94,0.01,56.91-0.01v-30.61c-18.95,0-37.89-0.05-56.84,0.02c-0.15-13.8-0.02-27.6-0.07-41.42
-		c22.32-0.04,44.64,0.09,66.95-0.05c0.75-10.19,0.07-20.76,0.32-31.1C275.43,72.75,238.59,72.8,201.74,72.8"/>
-	<path fill="#FF9447" d="M78.85,8.77c3.21-1.79,6.15-4.21,9.74-5.23c0.55,6.94,0.18,13.91,0.28,20.86c-0.23,17.9,0.55,35.83-0.58,53.7
-		c0.01,79.26,0,158.52,0.01,237.79c-10.32,5.99-20.45,12.33-30.72,18.41c-12.24,7.43-24.53,14.8-36.8,22.21
-		c0.01-104.19,0.07-208.37-0.03-312.56C39.99,32.02,59.5,20.52,78.85,8.77"/>
-	<path fill="#923B00" d="M408.41,72.59c10.28-0.01,20.55-0.03,30.84,0.01c0,124.96,0.01,249.91-0.01,374.86
-		c-119.96,0-239.9,0.02-359.86-0.01C67.54,447.95,57.3,437,57.46,425.39c0.02-30.36-0.21-60.74,0.12-91.09
-		c10.28-6.08,20.4-12.43,30.72-18.41c106.69-0.21,213.38,0.01,320.09-0.11C408.44,234.71,408.39,153.66,408.41,72.59 M169.89,352.38
-		c-3.53,3.11-5.24,7.65-6.01,12.18c5.15,0.09,10.3,0.05,15.45,0.03c0.44-7.31,10.82-9.84,15.23-4.58c1.9,3.55,1.68,9.38-2.42,11.34
-		c-3.48,1.53-7.36,0.98-11.05,1.06c-0.01,3.68-0.01,7.35,0,11.04c5.43-0.03,12.98-0.73,15.82,5.1c0.99,3.73,1.14,8.71-2.13,11.42
-		c-5.54,4.2-15.5,2.03-16.7-5.5c-5.13,0.15-10.27-0.23-15.37,0.25c1.05,4.97,3.06,10.07,7.2,13.28c5.35,4.33,12.49,5.44,19.18,5.56
-		c7.54-0.2,15.66-2.25,20.82-8.1c4.32-4.73,4.55-11.7,3.44-17.67c-1.68-6.17-7.98-9.5-13.85-10.63c3.97-0.99,8.01-2.81,10.39-6.27
-		c2.36-3.22,1.96-7.51,1.53-11.24c-1.12-6.39-6.98-10.76-12.92-12.42C188.94,344.48,177.5,345.46,169.89,352.38 M232.34,349.21
-		c-6.88,3.72-10.87,11.49-10.95,19.18c-0.01,8.32-0.1,16.63,0.04,24.95c0.31,7.37,4.87,14.39,11.63,17.46
-		c8.05,3.62,17.62,3.69,25.81,0.46c6.95-2.75,12.39-9.41,12.92-16.98c0.35-5.24,0.29-10.92-2.6-15.52
-		c-6.39-10.56-22.97-12-31.71-3.67c0.27-5.04-1.1-10.88,2.42-15.11c4.73-4.57,15.38-3.42,16.36,4.09c4.74,0.08,9.49,0.03,14.23,0.03
-		c-0.13-7.06-4.7-13.64-11.36-16.05C250.56,344.97,240.49,344.86,232.34,349.21 M298.31,346.63c-5.14,1.08-10.12,3.68-13.35,7.89
-		c-3.54,4.49-4.55,10.4-4.49,15.99c0.05,6.85-0.02,13.7,0.03,20.53c0.06,7.18,3.21,14.62,9.54,18.44
-		c8.33,4.99,19.09,5.27,28.07,1.89c7.48-2.72,12.27-10.32,12.76-18.09c0.36-7.92,0.04-15.87,0.16-23.79
-		c0.12-7.23-2.49-15.03-8.71-19.21C315.31,345.68,306.35,345.11,298.31,346.63"/>
-	<path fill="#923B00" d="M302.2,357.98c3.85-1.41,9.08-0.62,11.13,3.31c2.54,5.22,1.26,11.24,1.56,16.82
-		c-0.31,6.11,0.82,12.4-0.95,18.35c-1.79,5.48-9.16,6.3-13.57,3.63c-3.21-2.27-3.8-6.57-3.77-10.21c0.07-7.57-0.08-15.13,0.08-22.69
-		C296.78,363.48,298.39,359.25,302.2,357.98"/>
-	<path fill="#923B00" d="M237.5,385.83c2.61-2.54,5.89-4.48,9.62-4.52c3.63-0.57,7.88,1.59,8.41,5.48c0.51,4.33,0.88,9.74-2.77,12.88
-		c-4.06,2.84-10.71,2.69-13.82-1.52C236.63,394.45,237.71,389.91,237.5,385.83"/>
-</svg>
-</span> Autodesk Fusion </td><td><img title="Corel Painter Essentials" src='img/corelpainter.png' width="32" /> Corel Painter</td></tr>
-		  </tbody>
-		</table>
-  </li>
-	<li class="list-group-item">
-<h5>
-	<span class='lrg'><span class="badge bg-primary">Data visualisation</span></span>
-	<span class='lrg'><span class="badge bg-primary">Data analysis</span></span>
-	<span class='lrg'><span class="badge bg-primary">Information graphics</span></span>
-	<span class='lrg'><span class="badge bg-primary">3D modeling</span></span>
-	<span class='lrg'><span class="badge bg-primary">Typography</span></span>
-	<span class='lrg'><span class="badge bg-primary">Layout</span></span>
-	<span class='lrg'><span class="badge bg-primary">Project management (scrum)</span></span>
-	<span class='lrg'><span class="badge bg-primary">Communication</span></span>
-	<span class='lrg'><span class="badge bg-primary">Creativity</span></span>
-</h5>
-</li>
-</ul>
-
-</div>
-
+	<header data-bs-theme="dark">
+		<div class="navbar fixed-top navbar-dark bg-dark shadow-sm">
+			<div class="container">
+				<a href="index.html" class="navbar-brand d-flex align-items-center active">
+					<img src="icons/icon_about.svg" width="32"/>&nbsp;
+					<strong>About Me</strong>
+				</a>
+				<a href="graphic.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_painter.svg" width="32"/>&nbsp;<strong>Graphic design</strong>
+				</a>
+				<a href="uxui.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_uxui.svg" width="32"/>&nbsp;<strong>Interface design</strong>
+				</a> 
+				<a href="photos.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_photos.svg" width="32"/>&nbsp;
+					<strong>Photos</strong>
+				</a>
+			</div>
 		</div>
-		<div class="col-md-3 col-sm-7">
-		<img src="img/photo.jpg" class="img-fluid" alt="Sofia Lisina" style="border:3px solid rgb(133, 64, 245); border-radius:20px;margin-top:15px;">
+	</header>
+
+
+	<main>
+		<div class='container'>
+			<div class='row'>
+				<div class="col-md-6 col-sm-12">
+					<h2 style='color: #6f42c1; font-weight: 600'> Sofia Lisina, M.Sc.</h2>
+					<h5 style='color: #6f42c1; font-weight: 500'> Interests:&nbsp;
+						Graphic design | UX/UI | Brand design | Digital marketing </span> </h5>
+					<p>I am a researcher from Åbo Akademi University, working with bionanomaterials and 3D printing for
+						drug delivery applications.
+						I was always fascinated by the art world, in particular well-known artists Frida Kahlo, Salvador
+						Dali, Pablo Picasso. In my current work, I am trying to be creative, to think boldly, and to
+						implement graphic design for better visualisation. In addition to my love to science, I want to
+						boost my art skills further and to work as a graphical/brand designer in a foreseeable future.
+					</p>
+
+					<div class='row g-3'>
+
+						<ul class="list-group list-group">
+							<li class="list-group-item act">Skills</li>
+							<li class="list-group-item">
+								<table class="table table-sm">
+									<tbody>
+										<tr>
+											<td><span title="Adobe Illustrator"><img
+														src="icons/icon_illustrator.svg" />&nbsp;</span>Adobe
+												Illustrator</td>
+											<td><span title='Adobe Photoshop'><img
+														src="icons/icon_photoshop.svg" />&nbsp;</span>Adobe Photoshop
+											</td>
+											<td><span title='Adobe InDesign'><img src="icons/icon_indesign.svg"
+														width="32" /> Adobe InDesign</span></td>
+										</tr>
+										<tr>
+											<td><span title="Figma"><img src="icons/icon_figma.svg"></span>&nbsp;Figma
+											</td>
+											<td><span title='Autodesk Fusion 360'><img
+														src="icons/icon_autodeskfusion.svg"></span>&nbsp;Autodesk Fusion
+											</td>
+											<td> <img title="Corel Painter Essentials" src='img/corelpainter.png'
+													width="32" /> Corel Painter</td>
+										</tr>
+										<tr>
+											<td><span title='MS Word'><img
+														src="icons/icon_word.svg" />&nbsp;</span>Microsoft Word</td>
+											<td><span title='MS Excel'><img
+														src="icons/icon_excel.svg" />&nbsp;</span>Microsoft Excel</td>
+											<td><span title='MS PowerPoint'><img
+														src="icons/icon_powerpoint.svg" />&nbsp;</span>Microsoft
+												PowerPoint</td>
+										</tr>
+									</tbody>
+								</table>
+							</li>
+							<li class="list-group-item">
+								<h5>
+									<span class='lrg'><span class="badge bg-primary">Data visualisation</span></span>
+									<span class='lrg'><span class="badge bg-primary">Data analysis</span></span>
+									<span class='lrg'><span class="badge bg-primary">Information graphics</span></span>
+									<span class='lrg'><span class="badge bg-primary">3D modeling</span></span>
+									<span class='lrg'><span class="badge bg-primary">Typography</span></span>
+									<span class='lrg'><span class="badge bg-primary">Layout</span></span>
+									<span class='lrg'><span class="badge bg-primary">Project management
+											(scrum)</span></span>
+									<span class='lrg'><span class="badge bg-primary">Communication</span></span>
+									<span class='lrg'><span class="badge bg-primary">Creativity</span></span>
+								</h5>
+							</li>
+						</ul>
+
+					</div>
+
+				</div>
+				<div class="col-md-3 col-sm-7">
+					<img src="img/photo.jpg" class="img-fluid" alt="Sofia Lisina"
+						style="border:3px solid rgb(133, 64, 245); border-radius:20px;margin-top:15px;">
+				</div>
+				<div class="col-md-3 col-sm-5">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item"><img src="icons/icon_phone.svg" />&nbsp;&#x2B;&#x33;&#x35;&#x38;
+							&#x34;&#x34; &#x39;&#x32;&#x33; &#x31;&#x31; &#x35;&#x36;</li>
+						<li class="list-group-item"><img src="icons/icon_email.svg" />&nbsp;<a
+								href="mailto:sofia.lisina@abo.fi">sofia.lisina@abo.fi</a></li>
+						<li class="list-group-item"><img src="icons/icon_linkedin.svg" />&nbsp;<a
+								href="https://linkedin.com/in/sofia-lisina-7360b61a9">Sofia Lisina</a></li>
+						<li class="list-group-item"><img src="icons/icon_location.svg" />&nbsp;Turku, Finland</li>
+						<li class="list-group-item"><img src="icons/icon_languages.svg" />&nbsp;
+							<img src='img/flag_en.png' title='English: fluent' />
+							<img src='img/flag_ru.png' title='Russian: native' />
+							<img src='img/flag_se.png' title='Swedish: elementary' />
+							<img src='img/flag_es.png' title='Spanish: basic' />
+						</li>
+					</ul>
+				</div>
+				<div class='col'>
+					<div class='row'>
+						<!-- content -->
+						<div class='col-md-7 col-sm-12 g-2'>
+							<ul class="list-group">
+								<li class="list-group-item act">Education</li>
+								<li class="list-group-item"><span
+										class="badge bg-primary">2023&ndash;present</span>&nbsp;Professional training:
+									<strong>“Graphic and UX/UI designer”</strong> (online), Educational Center for CAD
+									and Design, Faculty of
+									Software Engineering and Computer Technology, ITMO University, Saint-Petersburg,
+									Russia.
+								</li>
+								<li class="list-group-item"><span
+										class="badge bg-primary">2017&ndash;2019</span>&nbsp;M.Sc. degree (with
+									distinction) in Chemical Technology, Faculty of Drug Industrial
+									Technology, St. Petersburg State Chemical and Pharmaceutical University (SCPU),
+									Saint-Petersburg, Russia. <br />Thesis: “Development and investigation of potential
+									drug delivery systems”.
+								</li>
+								<li class="list-group-item"><span
+										class="badge bg-primary">2007&ndash;2012</span>&nbsp;Specialist degree
+									(corresponds to master´s degree) in Chemical Engineering of
+									Organic Substances, Faculty of Chemical Engineering and Biotechnology, St.
+									Petersburg State Institute of Technology (Technical University), Saint-Petersburg,
+									Russia. <br />
+									Thesis: “Synthesis of imide-containing phthalodinitriles and phthalocyanines on its
+									basis”.
+								</li>
+							</ul>
+						</div>
+						<div class='col-md-5 col-sm-12 g-2'>
+							<ul class="list-group">
+								<li class="list-group-item act">Experience</li>
+								<li class="list-group-item"><span class="badge bg-primary">2019&ndash;present
+									</span>&nbsp;Researcher, Faculty of Sciences and Engineering, Pharmaceutical
+									Sciences Laboratory, Åbo Akademi University, Turku, Finland. </li>
+								<li class="list-group-item"><span class="badge bg-primary">2021&ndash;2022
+									</span>&nbsp;Pharmaceutical developer (Quality control), Curify Oy, Helsinki,
+									Finland. </li>
+								<li class="list-group-item"><span
+										class="badge bg-primary">2013&ndash;2017</span>&nbsp;Engineer, FSUE RRC “Applied
+									Chemistry”, Saint-Petersburg, Russia.</li>
+								<li class="list-group-item"><span
+										class="badge bg-primary">2012&ndash;2013</span>&nbsp;Assistant chemist,
+									Department of Chemical Technology
+									of Organic Dyes and Phototropic Compounds, St. Petersburg State Institute of
+									Technology (Technical University), Saint-Petersburg, Russia.<br />&nbsp;</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-3 col-sm-5">
-		<ul class="list-group list-group-flush">
-  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
-  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
-</svg> &#x2B;&#x33;&#x35;&#x38; &#x34;&#x34; &#x39;&#x32;&#x33; &#x31;&#x31; &#x35;&#x36;</li>
-  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
-  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
-  <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
-</svg>&nbsp;<a href="mailto:sofia.lisina@abo.fi">sofia.lisina@abo.fi</a></li>
-  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-</svg>&nbsp;<a href="https://linkedin.com/in/sofia-lisina-7360b61a9">Sofia Lisina</a></li>
-  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-</svg> Turku, Finland</li>
-<li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-megaphone" viewBox="0 0 16 16">
-  <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z"/>
-</svg> 
-<img src='img/flag_en.png' title='English: fluent' />
-			<img src='img/flag_ru.png' title='Russian: native'/>
-			<img src='img/flag_se.png' title='Swedish: elementary'/>
-			<img src='img/flag_es.png' title='Spanish: basic'/></li>
-</ul>
-</div>
-<div class='col'>
-<div class='row'>
-<!-- content -->
-<div class='col-md-7 col-sm-12 g-2'>
-<ul class="list-group">
-	<li class="list-group-item act">Education</li>
-	<li class="list-group-item"><span class="badge bg-primary">2023&ndash;present</span>&nbsp; Professional training: <strong>“UX/UI designer”</strong>, Educational Center for CAD and Design, Faculty of Software Engineering and Computer Technology, ITMO University, Saint-Petersburg, Russia.</li>
-	<li class="list-group-item"><span class="badge bg-primary">2017&ndash;2019</span>&nbsp; M.Sc. degree (with distinction) in Chemical Technology, Faculty of Drug Industrial Technology, St. Petersburg State Chemical and Pharmaceutical University (SCPU), Saint-Petersburg, Russia. <br/>Thesis: “Development and investigation of potential drug delivery systems”.
-</li>
-	<li class="list-group-item"><span class="badge bg-primary">2007&ndash;2012</span>&nbsp; Specialist degree (corresponds to master´s degree) in Chemical Engineering of Organic Substances, Faculty of Chemical Engineering and Biotechnology, St. Petersburg State Institute of Technology (Technical University), Saint-Petersburg, Russia. <br/>
-Thesis: “Synthesis of imide-containing phthalodinitriles and phthalocyanines on its basis”.
-</li>
-</ul>
-</div>
-<div class='col-md-5 col-sm-12 g-2'>
-<ul class="list-group">
-	<li class="list-group-item act">Experience</li>
-	<li class="list-group-item"><span class="badge bg-primary">2019&ndash;present </span>&nbsp; Researcher, Faculty of Sciences and Engineering, Pharmaceutical Sciences Laboratory, Åbo Akademi University, Turku, Finland. </li>
-	<li class="list-group-item"><span class="badge bg-primary">2021&ndash;2022 </span>&nbsp; Pharmaceutical developer (Quality control), Curify Oy, Helsinki, Finland. </li>
-	<li class="list-group-item"><span class="badge bg-primary">2013&ndash;2017</span>&nbsp; Engineer, FSUE RRC “Applied Chemistry”, Saint-Petersburg, Russia.</li>
-	<li class="list-group-item"><span class="badge bg-primary"> 2012&ndash;2013</span>&nbsp;Assistant chemist, Department of Chemical Technology of Organic Dyes and Phototropic Compounds, St. Petersburg State Institute of Technology (Technical University), Saint-Petersburg, Russia.<br/>&nbsp;</li>
-</ul>
-</div>
-<!--
-<div class='col-md-12 col-sm-12 g-3'>
-<ul class="list-group">
-	<li class="list-group-item act">Skills</li>
-	<li class="list-group-item"><span class="badge bg-secondary">Data visualisation</span></li>
-</ul>
-</div>
--->
-</div>
-</div>
-</div>
-</div>
-</main>
+	</main>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+	crossorigin="anonymous"></script>
+
 </html>
