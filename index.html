@@ -5,17 +5,30 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="keywords" content="Design, UI/UX">
+	<meta name="keywords" content="design, UX/UI, graphic design, Figma, Illustrator, mobile layout, tilda">
 	<meta name="author" content="Sofia Lisina">
 	<link rel='favicon' src='favicon.ico'>
 	<title>Sofia Lisina: about me</title>
 
 	<!-- Bootstrap CSS & JS-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+	
 	<style type='text/css'>
-		.act {
-			background-color: rgb(133, 64, 245);
-			color: white
+		h2, h3, h4, h5 {
+			color: rgb(111, 66, 193)
+		}
+       
+		.card-header{
+			font-weight: 600;
+            background-color: rgb(111, 66, 193);
+			color: #ffffff;
+		}
+		.card-footer{
+			background-color: #e9e9e9;
+		}
+		.card{
+			border-color: rgb(111, 66, 193);	
 		}
 	</style>
 </head>
@@ -25,18 +38,25 @@
 		<nav class="navbar navbar-dark bg-dark shadow-sm">
 			<div class="container">
 				<a href="index.html" class="navbar-brand d-flex align-items-center active">
-					<img src="icons/icon_about.svg" width="32" />&nbsp;
-					<strong>About Me</strong>
+					<img src="icons/icon_about.svg" width="32" />About
 				</a>
-				<a href="graphic.html" class="navbar-brand d-flex align-items-center">
-					<img src="icons/icon_painter.svg" width="32" />&nbsp;<strong>Graphic design</strong>
+				<a href="graphicdesign.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_painter.svg" width="32" />Graphic design
 				</a>
-				<a href="uxui.html" class="navbar-brand d-flex align-items-center">
-					<img src="icons/icon_uxui.svg" width="32" />&nbsp;<strong>Interface design</strong>
+				<a href="ux.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_ux.svg" width="32" />UX
+				</a>
+				<a href="ui.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_ui.svg" width="32" />UI
+				</a>
+				<a href="project.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_project.svg" width="32" />Featured project
+				</a>
+				<a href="tilda.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_web.svg" width="32" />Tilda
 				</a>
 				<a href="photos.html" class="navbar-brand d-flex align-items-center">
-					<img src="icons/icon_photos.svg" width="32" />&nbsp;
-					<strong>Photos</strong>
+					<img src="icons/icon_photos.svg" width="32" />Photos
 				</a>
 			</div>
 		</nav>
@@ -44,23 +64,15 @@
 	<main>
 		<div class='container'>
 			<div class='row'>
-				<div class="col-md-6 col-sm-12">
-					<h2 style='color: #6f42c1; font-weight: 600'> Sofia Lisina, M.Sc.</h2>
-					<h5 style='color: #6f42c1; font-weight: 500'> Interests:&nbsp;
+				<div class="col-md-7 col-sm-12 gx-2">
+					<h2> Sofia Lisina, M.Sc.</h2>
+					<h5> Interests:&nbsp;
 						Graphic design | UX/UI | Brand design | Digital marketing </span> </h5>
-					<p>I am a researcher from Åbo Akademi University, working with bionanomaterials and 3D printing for
-						drug delivery applications.
-						I was always fascinated by the art world, in particular well-known artists Frida Kahlo, Salvador
-						Dali, Pablo Picasso. In my current work, I am trying to be creative, to think boldly, and to
-						implement graphic design for better visualisation. In addition to my love to science, I want to
-						boost my art skills further and to work as a graphical/brand designer in a foreseeable future.
-					</p>
+					<p>I recently completed my research at Åbo Akademi University, where I worked on bionanomaterials and 3D printing for drug delivery applications. Throughout my research, I was always drawn to the creative aspects of my work, using graphic design to enhance visualizations and communicate complex ideas. Inspired by the bold, imaginative approaches of artists like Frida Kahlo, Salvador Dalí, and Pablo Picasso, I am now eager to transition into UX/UI design, where I can combine my passion for creativity with my analytical skills. I'm excited to bring fresh perspectives to design and pursue a career in creating intuitive, visually compelling user experiences.</p>
 
-					<div class='row g-3'>
-
-						<ul class="list-group list-group">
-							<li class="list-group-item act">Skills</li>
-							<li class="list-group-item">
+						<div class="card">
+							<div class="card-header">Skills</div>
+							<div class="card-body">
 								<table class="table table-sm">
 									<tbody>
 										<tr>
@@ -68,14 +80,14 @@
 												Illustrator</td>
 											<td><span title='Adobe Photoshop'><img src="icons/icon_photoshop.svg" />&nbsp;</span>Adobe Photoshop
 											</td>
-											<td><span title='Adobe InDesign'><img src="icons/icon_indesign.svg" width="32" /> Adobe InDesign</span></td>
-										</tr>
-										<tr>
 											<td><span title="Figma"><img src="icons/icon_figma.svg"></span>&nbsp;Figma
 											</td>
+										</tr>
+										<tr>
+											<td> <img title="Miro" src='icons/icon_miro.svg' width="32" /> Miro</td><td><span title='Adobe InDesign'><img src="icons/icon_indesign.svg" width="32" /> Adobe InDesign</span></td>
 											<td><span title='Autodesk Fusion 360'><img src="icons/icon_autodeskfusion.svg"></span>&nbsp;Autodesk Fusion
 											</td>
-											<td> <img title="Corel Painter Essentials" src='img/corelpainter.png' width="32" /> Corel Painter</td>
+											
 										</tr>
 										<tr>
 											<td><span title='MS Word'><img src="icons/icon_word.svg" />&nbsp;</span>Microsoft Word</td>
@@ -85,54 +97,63 @@
 										</tr>
 									</tbody>
 								</table>
-							</li>
-							<li class="list-group-item">
-								<h5>
-									<span class='lrg'><span class="badge bg-primary">Data visualisation</span></span>
-									<span class='lrg'><span class="badge bg-primary">Data analysis</span></span>
-									<span class='lrg'><span class="badge bg-primary">Information graphics</span></span>
-									<span class='lrg'><span class="badge bg-primary">3D modelling</span></span>
-									<span class='lrg'><span class="badge bg-primary">Typography</span></span>
-									<span class='lrg'><span class="badge bg-primary">Layout</span></span>
-									<span class='lrg'><span class="badge bg-primary">Project management (scrum)</span></span>
-									<span class='lrg'><span class="badge bg-primary">Communication</span></span>
-									<span class='lrg'><span class="badge bg-primary">Creativity</span></span>
-								</h5>
-							</li>
-						</ul>
-
-					</div>
+								<p>
+									<span class="badge bg-primary">Mobile app design</span>
+									<span class="badge bg-primary">Web app design</span>
+									<span class="badge bg-primary">Prototyping&amp;wireframing</span>
+									<span class="badge bg-primary">Responsive web-design</span>
+									<span class="badge bg-primary">CJM</span>
+									<span class="badge bg-primary">Mockups</span>
+									<span class="badge bg-primary">Sketching</span>
+									<span class="badge bg-primary">Visual design</span>
+									<span class="badge bg-primary">Usability testing</span>
+									<span class="badge bg-primary">Data visualisation</span>
+									<span class="badge bg-primary">Data analysis</span>
+									<span class="badge bg-primary">Information graphics</span>
+									<span class="badge bg-primary">3D modelling</span>
+									<span class="badge bg-primary">Typography</span>
+									<span class="badge bg-primary">Layout</span>
+									<span class="badge bg-primary">Project management (scrum)</span>
+									<span class="badge bg-primary">Communication</span>
+									<span class="badge bg-primary">Creativity</span>
+								</p>
+							</div>
+						</div>
+					
 
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-5 g-2">
 					<div class="row">
-						<div class="col-lg-7 col-md-10 cols-sm-7">
-							<img src="img/photo.jpg" class="img-fluid" alt="Sofia Lisina" style="border:3px solid rgb(133, 64, 245); border-radius:20px;margin-top:8px;">
+						<div class="col-xl-6 col-lg-12 col-md-12 cols-sm-12 gx-4">
+							<img src="img/photo.jpg" class="img-fluid" alt="Sofia Lisina" style="border:3px solid rgb(111, 66, 193); border-radius:20px;margin: 0px 0px 0px 12px">
 						</div>
-						<div class="col-lg-5 col-md-12 cols-sm-5">
+						<div class="col-xl-6 col-lg-12 col-md-12 cols-sm-12 gx-2 gy-0">
 							<ul class="list-group list-group-flush">
 								<li class="list-group-item"><img src="icons/icon_phone.svg" />&nbsp;&#x2B;&#x33;&#x35;&#x38;
 									&#x34;&#x34; &#x39;&#x32;&#x33; &#x31;&#x31; &#x35;&#x36;</li>
-								<li class="list-group-item"><img src="icons/icon_email.svg" />&nbsp;<a href="mailto:sofia.lisina@abo.fi">sofia.lisina@abo.fi</a></li>
+								<li class="list-group-item"><img src="icons/icon_email.svg" />&nbsp;<a href='&#109;&#97;ilt&#111;&#58;%&#54;Ci&#37;73i%6&#69;a&#46;sofy%61&#64;g&#109;a&#105;l&#46;%63om'>lis&#105;&#110;a&#46;&#115;ofya&#64;gmail&#46;c&#111;m</a></li>
 								<li class="list-group-item"><img src="icons/icon_linkedin.svg" />&nbsp;<a href="https://linkedin.com/in/sofia-lisina-7360b61a9">Sofia Lisina</a></li>
-								<li class="list-group-item"><img src="icons/icon_location.svg" />&nbsp;Turku, Finland</li>
+								<li class="list-group-item"><img src="icons/icon_location.svg" />&nbsp;Espoo, Finland</li>
 								<li class="list-group-item"><img src="icons/icon_languages.svg" />&nbsp;
 									<img src='icons/icon_en.svg' height="24" width="36" title='English: fluent' />
 									<!--<img src='img/flag_ru.png' title='Russian: native' />-->
 									<img src='icons/icon_se.svg' height="24" width="36" title='Swedish: elementary' />
-									<img src='icons/icon_es.svg' height="24" width="36" title='Spanish: basic' />
+									<!--<img src='icons/icon_es.svg' height="24" width="36" title='Spanish: basic' />-->
+									<img src='icons/icon_es.png' height="24" width="36" title='Spanish: basic' />
+
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
+			<br/>
 			<div class='row'>
-				<div class='col-md-7 col-sm-12 g-2'>
+					<div class='col-md-7 col-sm-12 gx-2'>
 					<div class="card h-100">
-						<div class="card-header" style="color:#fff;background-color:rgb(133, 64, 245)">Education</div>
+						<div class="card-header">Education</div>
 						<div class="card-body">
-							<p><span class="badge bg-primary">2023&ndash;present</span>&nbsp;Professional training: <strong>“Graphic and UX/UI designer”</strong> (online), Educational Center for CAD 	and Design, Faculty of Software Engineering and Computer Technology, ITMO University, Saint-Petersburg.
+							<p><span class="badge bg-primary">2023&ndash;2024</span>&nbsp;Professional training: <strong>“Graphic and UX/UI designer”</strong> (online), Educational Center for CAD 	and Design, Faculty of Software Engineering and Computer Technology, ITMO University, Saint-Petersburg.
 							</p>
 							<hr />
 							<p><span class="badge bg-primary">2017&ndash;2019</span>&nbsp;M.Sc. degree (with distinction) in Chemical Technology, Faculty of Drug Industrial Technology, St. Petersburg State Chemical and Pharmaceutical University (SCPU), Saint-Petersburg. <br />Thesis: “Development and investigation of potential drug delivery systems”.
@@ -145,11 +166,13 @@
 						</div>
 					</div>
 				</div>
-				<div class='col-md-5 col-sm-12 g-2'>
+				<div class='col-md-5 col-sm-12 gx-2'>
 					<div class="card h-100">
-						<div class="card-header" style="color:#fff;background-color:rgb(133, 64, 245)">Experience</div>
+						<div class="card-header">Experience</div>
 						<div class="card-body">
-							<p><span class="badge bg-primary">2019&ndash;present
+							<p><span class="badge bg-primary">02.2024&mdash;04.2024</span> <strong>UX/UI intern</strong> (remote), Enrique Sanchez Organization, Helsingborg, Sweden.</p>
+							<hr />
+							<p><span class="badge bg-primary">2019&ndash;2024
 								</span>&nbsp;Researcher, Faculty of Sciences and Engineering, Pharmaceutical Sciences Laboratory, Åbo Akademi University, Turku, Finland. </p>
 							<hr />
 							<p><span class="badge bg-primary">2021&ndash;2022
@@ -163,8 +186,7 @@
 				</div>
 			</div>
 		</div>
-		</div>
-		</div>
+		<br/>
 	</main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

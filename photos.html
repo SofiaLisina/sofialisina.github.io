@@ -5,7 +5,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="keywords" content="Design, UI/UX">
+	<meta name="keywords" content="design, UX/UI, graphic design, Figma, Illustrator, mobile layout, tilda">
 	<meta name="author" content="Sofia Lisina">
 	<link rel='favicon' src='favicon.ico'>
 	<title>Sofia Lisina: selected photos</title>
@@ -13,11 +13,14 @@
 	<!-- Bootstrap CSS & JS-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+
 	<style type='text/css'>
-		.act {
-			background-color: rgb(133, 64, 245);
-			color: white
+		.card{
+			border-color: rgb(111, 66, 193);
+			border-width: 2px;
 		}
+
 	</style>
 </head>
 
@@ -25,127 +28,140 @@
 	<header data-bs-theme="dark">
 		<nav class="navbar navbar-dark bg-dark shadow-sm">
 			<div class="container">
-				<a href="index.html" class="navbar-brand d-flex align-items-center active">
-					<img src="icons/icon_about.svg" width="32" />&nbsp;
-					<strong>About Me</strong>
+				<a href="index.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_about.svg" width="32" />Sofia Lisina
 				</a>
-				<a href="graphic.html" class="navbar-brand d-flex align-items-center">
-					<img src="icons/icon_painter.svg" width="32" />&nbsp;<strong>Graphic design</strong>
+				<a href="graphicdesign.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_painter.svg" width="32" />Graphic design
 				</a>
-				<a href="uxui.html" class="navbar-brand d-flex align-items-center">
-					<img src="icons/icon_uxui.svg" width="32" />&nbsp;<strong>Interface design</strong>
+				<a href="ux.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_ux.svg" width="32" />UX
 				</a>
-				<a href="photos.html" class="navbar-brand d-flex align-items-center">
-					<img src="icons/icon_photos.svg" width="32" />&nbsp;
-					<strong>Photos</strong>
+				<a href="ui.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_ui.svg" width="32" />UI
+				</a>
+				<a href="project.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_project.svg" width="32" />Featured project
+				</a>
+				<a href="tilda.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_web.svg" width="32" />Tilda
+				</a>
+				<a href="photos.html" class="navbar-brand d-flex align-items-center active">
+					<img src="icons/icon_photos.svg" width="32" />Photos
 				</a>
 			</div>
 		</nav>
 	</header>
 	<main>
 		<div class="container">
-			<div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel"
+			<br/>
+			<div class="card mb-3">
+				<div class="card-body bg-transparent">
+					
+			<div id="carouselImages" class="carousel slide" data-bs-ride="carousel"
 				data-bs-interval="5000">
 				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"	aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"	aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"	aria-label="Slide 3"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"	aria-label="Slide 4"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"	aria-label="Slide 5"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"    aria-label="Slide 6"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"	aria-label="Slide 7"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"	aria-label="Slide 8"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"	aria-label="Slide 9"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"	aria-label="Slide 10"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"	aria-label="Slide 11"></button>
-					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11"	aria-label="Slide 12"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="0" class="active"	aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="1"	aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="2"	aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="3"	aria-label="Slide 4"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="4"	aria-label="Slide 5"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="5"    aria-label="Slide 6"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="6"	aria-label="Slide 7"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="7"	aria-label="Slide 8"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="8"	aria-label="Slide 9"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="9"	aria-label="Slide 10"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="10"	aria-label="Slide 11"></button>
+					<button type="button" data-bs-target="#carouselImages" data-bs-slide-to="11"	aria-label="Slide 12"></button>
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="img/nature.jpg" class="d-block w-100" alt="...">
+						<img src="photos/nature.jpg" class="d-block w-100" alt="Seeli island">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Seili island, Turku Archipelago, Finland, 2023</span>
 							
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/boats.jpg" class="d-block w-100" alt="...">
+						<img src="photos/boats.jpg" class="d-block w-100" alt="Turku archipelago">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Nagu/Nauvo, Turku Archipelago, Finland, 2023</span>
 							
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/spb.jpg" class="d-block w-100" alt="...">
+						<img src="photos/spb.jpg" class="d-block w-100" alt="Oranienbaum">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Oranienbaum, Saint-Petersburg, 2023</span>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/astana.jpg" class="d-block w-100" alt="...">
+						<img src="photos/astana.jpg" class="d-block w-100" alt="Astana">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Astana, Kazakhstan, 2023</span>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/lisboa2023.jpg" class="d-block w-100" alt="...">
+						<img src="photos/lisboa2023.jpg" class="d-block w-100" alt="Lisbon">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Lisbon, Portugal, 2023</span>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/sintra.jpg" class="d-block w-100" alt="...">
+						<img src="photos/sintra.jpg" class="d-block w-100" alt="Sintra">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Sintra, Portugal, 2023</span>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/flowers.jpg" class="d-block w-100" alt="...">
+						<img src="photos/flowers.jpg" class="d-block w-100" alt="Turku">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Spring, Turku, Finland, 2023</span>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/kayaks.jpg" class="d-block w-100" alt="...">
+						<img src="photos/kayaks.jpg" class="d-block w-100" alt="Helsinki">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Helsinki, 2023</span>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/lighthouse.jpg" class="d-block w-100" alt="...">
+						<img src="photos/lighthouse.jpg" class="d-block w-100" alt="Suomenlinna">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Suomenlinna, Helsinki, 2023
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/vienna2022.jpg" class="d-block w-100" alt="...">
+						<img src="photos/vienna2022.jpg" class="d-block w-100" alt="Vienna">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Vienna, Austria, 2022</span>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/turku2021.jpg" class="d-block w-100" alt="...">
+						<img src="photos/turku2021.jpg" class="d-block w-100" alt="Turku">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Turku, 2021</span>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="img/winter2023.jpg" class="d-block w-100" alt="...">
+						<img src="photos/winter2023.jpg" class="d-block w-100" alt="Naantali">
 						<div class="carousel-caption">
 							<span class="badge bg-secondary">Naantali, Finland, 2019</span>
 						</div>
 					</div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselImages"
 					data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselImages"
 					data-bs-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
+			</div>
+				</div>
 			</div>
 		</div>
 	</main>
