@@ -30,7 +30,85 @@
 		.card{
 			border-color: rgb(111, 66, 193);	
 		}
-	</style>
+
+		.marquee {
+			overflow: hidden; /* Hide overflow content */
+			padding: 15px 0;
+			display:flex;
+		}
+
+		.marquee-content {
+			display: inline-block;
+			white-space: nowrap;
+			animation: scroll 25s linear infinite;
+			transition: animation-duration 0.5s ease;
+		}
+
+		@keyframes scroll {
+			from {
+			transform: translateX(0);
+			}
+			to {
+			transform: translateX(-100%);
+			}
+		}
+		.marquee:hover .marquee-content {
+    		animation-play-state: paused;
+  		}
+		
+		#idea {
+			position:relative;
+			transform-origin: center bottom;
+			animation: scaleUp 3s ease-in-out infinite;
+		}
+		
+		.bulbinner{
+			animation: blink 1s ease-in-out infinite;
+		}
+		
+		.lights{
+			animation: blink2 1s ease-in-out infinite;
+		}
+
+		@keyframes scaleUp {
+			0% {
+				transform:translateY(-26px) rotate(-5deg); /* Initial color (blue) */
+			}
+			50% {
+				transform:translateY(-26px) rotate(20deg) scale(125%); /* Intermediate color (orange) */
+			}
+			100% {
+				transform:translateY(-26px) rotate(-5deg);/* Return to the initial color (blue) */
+			}
+		}
+		@keyframes blink {
+			0% {
+				fill: #ffffff;
+			}
+			50% {
+				fill: #fbdd04; 
+				}
+			100% {
+				fill: #ffffff;
+						
+			}
+		}
+		@keyframes blink2 {
+			0% {
+				
+				stroke: #ffffff /* Initial color (blue) */
+			}
+			50% {
+			
+				stroke: #fbdd04;
+				 /* Intermediate color (orange) */
+			}
+			100% {
+			
+				stroke: #ffffff /* Return to the initial color (blue) */
+			}
+		}
+		</style>
 </head>
 
 <body>
@@ -97,40 +175,17 @@
 										</tr>
 									</tbody>
 								</table>
-								<p>
-									<span class="badge bg-primary">Mobile app design</span>
-									<span class="badge bg-primary">Web app design</span>
-									<span class="badge bg-primary">Prototyping&amp;wireframing</span>
-									<span class="badge bg-primary">Responsive web-design</span>
-									<span class="badge bg-primary">CJM</span>
-									<span class="badge bg-primary">Mockups</span>
-									<span class="badge bg-primary">Sketching</span>
-									<span class="badge bg-primary">Visual design</span>
-									<span class="badge bg-primary">Usability testing</span>
-									<span class="badge bg-primary">Data visualisation</span>
-									<span class="badge bg-primary">Data analysis</span>
-									<span class="badge bg-primary">Information graphics</span>
-									<span class="badge bg-primary">3D modelling</span>
-									<span class="badge bg-primary">Typography</span>
-									<span class="badge bg-primary">Layout</span>
-									<span class="badge bg-primary">Project management (scrum)</span>
-									<span class="badge bg-primary">Communication</span>
-									<span class="badge bg-primary">Creativity</span>
-								</p>
 							</div>
 						</div>
-					
-
 				</div>
-				<div class="col-lg-5 col-md-5 col-sm-12 g-2">
+				<div class="col-lg-5 col-md-5 col-sm-12 g-2 order-5">
 					<div class="row">
 						<div class="col-xl-6 col-lg-12 col-md-12 cols-sm-12 gx-4" style="padding:0 12px 0 12px">
 							<img src="img/photo.jpg" class="img-fluid" alt="Sofia Lisina" style="border:3px solid rgb(111, 66, 193); border-radius:20px;">
 						</div>
 						<div class="col-xl-6 col-lg-12 col-md-12 cols-sm-12 gx-0 gy-0">
 							<ul class="list-group list-group-flush">
-								<li class="list-group-item"><img src="icons/icon_phone.svg" />&nbsp;&#x2B;&#x33;&#x35;&#x38;
-									&#x34;&#x34; &#x39;&#x32;&#x33; &#x31;&#x31; &#x35;&#x36;</li>
+								<li class="list-group-item"><img src="icons/icon_phone.svg" />&nbsp;&#x2B;&#x33;&#x35;&#x38; &#x34;&#x34; &#x39;&#x32;&#x33;&#x31;&#x31;&#x35;&#x36; <a href="https://wa.me/358449231156" target="_blank"><img src="icons/icon_whatsapp.svg" width="24"/></a> <a href="https://t.me/sofialisina" target="_blank"><img src="icons/icon_telegram.svg" width="24"></a></li>
 								<li class="list-group-item"><img src="icons/icon_email.svg" />&nbsp;<a href='&#109;&#97;ilt&#111;&#58;%&#54;Ci&#37;73i%6&#69;a&#46;sofy%61&#64;g&#109;a&#105;l&#46;%63om'>lis&#105;&#110;a&#46;&#115;ofya&#64;gmail&#46;c&#111;m</a></li>
 								<li class="list-group-item"><img src="icons/icon_linkedin.svg" />&nbsp;<a href="https://linkedin.com/in/sofia-lisina-7360b61a9">Sofia Lisina</a></li>
 								<li class="list-group-item"><img src="icons/icon_location.svg" />&nbsp;Espoo, Finland</li>
@@ -147,7 +202,99 @@
 					</div>
 				</div>
 			</div>
-			<br/>
+			<br/><br/>
+			<div class="row">
+					<div class="col-md-12 gx-4" style="text-align: center;vertical-align:baseline; background:rgb(111, 66, 193);height:1px;">
+						<span style="padding:24px 20px 24px 12px;background-color:#fff;">
+<svg id="idea" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 51" width="50px" height="51px">
+  <defs>
+    <style>
+      .cls-1, .bulbouter {
+        fill: #6f42c1;
+      }
+
+      .lights {
+        stroke: #fbdd04;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+		stroke-linecap: round;
+      }
+
+      .bulbinner {
+        fill: #00b6e7;
+      }
+    </style>
+  </defs>
+  <g id="bottom">
+    <path class="cls-1" d="M25.093,48.999l1.042-.073c-.344.045-.691.07-1.042.073Z"/>
+    <path class="cls-1" d="M33.45,46.4l-16.17,1.15c1.64,2.12,4.67,3.45,7.72,3.45,3.57,0,7.11-1.83,8.45-4.6h0Z"/>
+  </g>
+  <g id="mid">
+    <polygon class="cls-1" points="34 41.36 34 44.36 16 45.64 16 42.64 34 41.36"/>
+    <polygon class="cls-1" points="34 41.36 16 42.64 16 45.64 34 44.36 34 41.36 34 41.36"/>
+  </g>
+  <g id="bulb">
+    <path class="bulbinner" stroke-width="3" d="M17.426,39.034c-.315-2.084-1.594-3.949-2.835-5.761-1.028-1.501-2.092-3.053-2.609-4.703h0s-.481-1.684-.481-3.57c0-7.444,6.056-13.5,13.5-13.5s13.5,6.056,13.5,13.5c0,1.893-.484,3.582-.489,3.599-.508,1.615-1.568,3.163-2.594,4.66-1.02,1.489-2.066,3.019-2.582,4.674l-15.409,1.102Z"/>
+    <path class="bulbouter" d="M25,13c6.617,0,12,5.383,12,12,0,1.562-.377,2.987-.423,3.157-.453,1.417-1.397,2.796-2.397,4.255-.892,1.302-1.804,2.634-2.42,4.095l-13.165.941c-.577-1.827-1.685-3.443-2.767-5.022-1.002-1.461-1.948-2.842-2.403-4.264-.053-.194-.425-1.61-.425-3.16,0-6.617,5.383-12,12-12M25,10c-8.28,0-15,6.72-15,15,0,2.15.55,4.02.55,4.02,1.32,4.21,5.45,7.36,5.45,10.98v.64l18.05-1.29c.44-3.36,4.16-6.38,5.4-10.33,0,0,.55-1.87.55-4.02,0-8.28-6.72-15-15-15h0Z"/>
+  </g>
+  <g id="light">
+    <line class="lights" x1="44" y1="25" x2="50" y2="25"/>
+    <line class="lights" y1="25" x2="6" y2="25"/>
+    <line class="lights" x1="38.435" y1="11.565" x2="42.678" y2="7.322"/>
+    <line class="lights" x1="7.322" y1="7.322" x2="11.565" y2="11.565"/>
+    <line class="lights" x1="25" x2="25" y2="6"/>
+  </g>
+</svg>
+						</span></div>
+			</div>
+			<div class="row">
+				<div class="g-4 marquee">
+					<div class="marquee-content">
+						<span class="badge bg-primary">Mobile app design</span>
+						<span class="badge bg-primary">Web app design</span>
+						<span class="badge bg-primary">Prototyping&amp;wireframing</span>
+						<span class="badge bg-primary">Responsive web-design</span>
+						<span class="badge bg-primary">CJM</span>
+						<span class="badge bg-primary">Mockups</span>
+						<span class="badge bg-primary">Sketching</span>
+						<span class="badge bg-primary">Visual design</span>
+						<span class="badge bg-primary">Usability testing</span>
+						<span class="badge bg-primary">Data visualisation</span>
+						<span class="badge bg-primary">Data analysis</span>
+						<span class="badge bg-primary">Information graphics</span>
+						<span class="badge bg-primary">3D modelling</span>
+						<span class="badge bg-primary">Typography</span>
+						<span class="badge bg-primary">Layout</span>
+						<span class="badge bg-primary">Project management (scrum)</span>
+						<span class="badge bg-primary">Communication</span>
+						<span class="badge bg-primary">Creativity</span>
+					</div>&nbsp;
+					<div class="marquee-content">
+						<span class="badge bg-primary">Mobile app design</span>
+						<span class="badge bg-primary">Web app design</span>
+						<span class="badge bg-primary">Prototyping&amp;wireframing</span>
+						<span class="badge bg-primary">Responsive web-design</span>
+						<span class="badge bg-primary">CJM</span>
+						<span class="badge bg-primary">Mockups</span>
+						<span class="badge bg-primary">Sketching</span>
+						<span class="badge bg-primary">Visual design</span>
+						<span class="badge bg-primary">Usability testing</span>
+						<span class="badge bg-primary">Data visualisation</span>
+						<span class="badge bg-primary">Data analysis</span>
+						<span class="badge bg-primary">Information graphics</span>
+						<span class="badge bg-primary">3D modelling</span>
+						<span class="badge bg-primary">Typography</span>
+						<span class="badge bg-primary">Layout</span>
+						<span class="badge bg-primary">Project management (scrum)</span>
+						<span class="badge bg-primary">Communication</span>
+						<span class="badge bg-primary">Creativity</span>
+					</div>&nbsp;
+				</div>
+			</div>
+			<div class="row">
+					<div class="col-md-12 g-4" style="text-align: center;vertical-align:baseline; background:rgb(111, 66, 193);height:1px;"></div>
+				</div>
+			<br/><br/>
 			<div class='row'>
 				<div class='col-md-7 col-sm-12 gx-2'>
 					<div class="card h-100">
