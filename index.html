@@ -33,15 +33,15 @@
 
 		.marquee {
 			overflow: hidden; /* Hide overflow content */
-			padding: 15px 0;
+			padding: 5px 0;
 			display:flex;
 		}
 
 		.marquee-content {
 			display: inline-block;
 			white-space: nowrap;
+			padding: 5px 5px 5px 0;
 			animation: scroll 25s linear infinite;
-			transition: animation-duration 0.5s ease;
 		}
 
 		@keyframes scroll {
@@ -72,13 +72,13 @@
 
 		@keyframes scaleUp {
 			0% {
-				transform:translateY(-26px) rotate(-5deg); /* Initial color (blue) */
+				transform:translateY(-27px) rotate(-5deg); /* Initial color (blue) */
 			}
 			50% {
-				transform:translateY(-26px) rotate(20deg) scale(125%); /* Intermediate color (orange) */
+				transform:translateY(-27px) rotate(20deg) scale(125%); /* Intermediate color (orange) */
 			}
 			100% {
-				transform:translateY(-26px) rotate(-5deg);/* Return to the initial color (blue) */
+				transform:translateY(-27px) rotate(-5deg);/* Return to the initial color (blue) */
 			}
 		}
 		@keyframes blink {
@@ -135,6 +135,9 @@
 				</a>
 				<a href="photos.html" class="navbar-brand d-flex align-items-center">
 					<img src="icons/icon_photos.svg" width="32" />Photos
+				</a>
+				<a href="feedback.html" class="navbar-brand d-flex align-items-center">
+					<img src="icons/icon_feedback.svg" width="32" />Feedback
 				</a>
 			</div>
 		</nav>
@@ -206,7 +209,7 @@
 			<div class="row">
 					<div class="col-md-12 gx-4" style="text-align: center;vertical-align:baseline; background:rgb(111, 66, 193);height:1px;">
 						<span style="padding:24px 20px 24px 12px;background-color:#fff;">
-<svg id="idea" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 51" width="50px" height="51px">
+<svg id="idea" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 54 54" width="54px" height="54px">
   <defs>
     <style>
       .cls-1, .bulbouter {
@@ -268,7 +271,7 @@
 						<span class="badge bg-primary">Project management (scrum)</span>
 						<span class="badge bg-primary">Communication</span>
 						<span class="badge bg-primary">Creativity</span>
-					</div>&nbsp;
+					</div>
 					<div class="marquee-content">
 						<span class="badge bg-primary">Mobile app design</span>
 						<span class="badge bg-primary">Web app design</span>
@@ -288,7 +291,7 @@
 						<span class="badge bg-primary">Project management (scrum)</span>
 						<span class="badge bg-primary">Communication</span>
 						<span class="badge bg-primary">Creativity</span>
-					</div>&nbsp;
+					</div>
 				</div>
 			</div>
 			<div class="row">

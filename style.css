@@ -22,20 +22,20 @@ h2, h3, h4, h5 {
 
 
 a.navbar-brand:link{
-	padding:6px 18px;
+	padding:4px 12px;
 }
 a.navbar-brand:hover{
 	text-decoration: underline;
-	padding:6px 18px;
+	padding:4px 12px;
 }
 a.navbar-brand:hover > img{
 	animation: zoom-animation 1s infinite alternate ease-in-out;
 }
 a.active{
 	background-color: #313539;
-	padding:6px 18px;
+	padding:4px 14px;
 	border-radius:12px;
-	font-weight: 700;
+	font-weight: 500;
 }
 a.active:hover{
 	animation: none;
