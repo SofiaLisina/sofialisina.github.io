@@ -22,25 +22,25 @@ h2, h3, h4, h5 {
 
 
 a.navbar-brand:link{
-	padding:4px 12px;
+	padding:4px 4px;
 }
 a.navbar-brand:hover{
 	text-decoration: underline;
-	padding:4px 12px;
+	padding:4px 4px;
 }
 a.navbar-brand:hover > img{
 	animation: zoom-animation 1s infinite alternate ease-in-out;
 }
 a.active{
 	background-color: #313539;
-	padding:4px 14px;
-	border-radius:12px;
+	padding:4px 4px;
+	border-radius:8px;
 	font-weight: 500;
 }
 a.active:hover{
 	animation: none;
 }
-a.navbar-brand > img {margin-right:8px;margin-left:2px;}
+a.navbar-brand > img {margin-right:4px;margin-left:2px;}
 @keyframes zoom-animation {
   0% {
 	transform: scale(1); /* Normal size */

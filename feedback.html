@@ -50,38 +50,44 @@
 				transform:rotate(0deg);/* Return to the initial color (blue) */
 			}
 		}
-    .min-height-responsive {
-        min-height: var(--min-height, 50vh);
+     .min-height-responsive {
+        min-height: 50vh;
       }
-
+      @media (max-width: 768px) {
+        .blockquote {
+          font-size: 100%;
+        }
+      }
       @media (min-width: 768px) {
         .min-height-responsive {
-          --min-height: 45vh;
+          min-height: 400px;
         }
       }
       @media (min-width: 992px) {
         .min-height-responsive {
-          --min-height: 40vh;
+          min-height: 320px;
         }
+
       }
     .carousel-control-next{
       width:20%;
       right:0;
-      height:10vh;
+      height:20%;
       bottom:100%;
     }
     .carousel-control-prev{
       width:170%;
       right:0;
-      height:10vh;
+      height:20%;
       bottom:100%;
     }
     .border-theme{
       border-color: rgb(111, 66, 193) !important;
     }
     .quot{
-      font-size:150%;color:rgb(111, 66, 193);display:inline-block;line-height: 67%;
+      font-size:150%;display:inline-block;line-height: 67%;
     }
+    
 	</style>
 </head>
 
@@ -118,14 +124,15 @@
 	</header>
 	<main>
       <div class='container'>
-			<h2> Kind❤️words</h2>
+			<h2> Kind<img src="icons/icon_heart.svg" style="width:0.75em;vertical-align: baseline;"/>words</h2>
             <p>Feedback on some of my completed works.</p>
+            <p style="height:50%"></p>
             <div class="row">
                 <div class="col">
-                    <div id="carouselImages" class="carousel carousel-dark slide d-flex min-height-responsive" data-bs-ride="carousel" data-bs-interval="5000">
+                    <div id="carouselImages" class="carousel carousel-dark slide d-flex min-height-responsive" data-bs-ride="carousel" data-bs-interval="7500">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <figure class="col-md-10 offset-md-1">
+                                <figure class="col-md-12">
                                   <figure class="d-flex">
                                     <img src="icons/icon_person.svg" width="64" class="rounded-pill border border-1 border-theme">
                                     <figcaption class="ms-2 mt-2 text-muted">
@@ -140,7 +147,7 @@
                                   </figure>
                           </div>
                           <div class="carousel-item">
-                            <figure class="col-md-10 offset-md-1">
+                            <figure class="col-md-12">
                               <figure class="d-flex">
                                 <img src="https://media.licdn.com/dms/image/v2/D5603AQFfl_4qh51txg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726397044329?e=1743638400&v=beta&t=8KRGgPM9Yc8qKlj7qjI33qU29_KpHPCyG995Azly4E8" width="64" class="rounded-pill border border-1 border-theme">
                                 <figcaption class="ms-2 mt-2 text-muted">
@@ -149,13 +156,27 @@
                                 </figcaption>
                               </figure>
                               <blockquote class="blockquote">
-                                  <p><div class="quot">&ldquo;</div>I ordered a business card design for the conference at U.S. and an official invitation card for my PhD defense from Sofia, and I couldn’t be happier with the results. She completed the work within a few hours, which was incredibly helpful given my tight schedule. What impressed me most was how she seamlessly aligned the design with the official style of my university while adding her own creative touch.<br/>
-                                  Despite being in the early stages of her career, Sofia's work demonstrates professionalism and a keen artistic eye. She was proactive in developing design ideas, even when I wasn’t sure what I wanted. Her ability to think from both a technical and artistic perspective sets her apart. Sofia is not only talented but also extremely helpful, making the entire process smooth and enjoyable. I highly recommend her!<div class="quot">&rdquo;</div></p>
+                                  <p><div class="quot">&ldquo;</div>I ordered a business card design for the conference and an official invitation card for my PhD defense from Sofia, and I am absolutely happy with the results. She completed the work within a few hours, which was incredibly helpful given my schedule. She seamlessly aligned the design with the official style of my university while adding her own creative touch.<br/>
+                                  Sofia's work demonstrates professionalism and a keen artistic eye. She was proactive in developing design ideas, even when I wasn’t sure what I wanted. Sofia is not only talented but also extremely helpful, making the entire process smooth and enjoyable. I highly recommend her!<div class="quot">&rdquo;</div></p>
                                 </blockquote>
                                    
                               </figure>
                         </div> 
-                             
+                        <div class="carousel-item">
+                          <figure class="col-md-12">
+                            <figure class="d-flex">
+                              <img src="https://media.licdn.com/dms/image/v2/D5603AQHsrJOMkUeaMQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710858133430?e=1743638400&v=beta&t=jhX83lq6KhoGEWRNgQy4t8YDrqa_1DqKP6eVdCAn2b8" width="64" class="rounded-pill border border-1 border-theme">
+                              <figcaption class="ms-2 mt-2 text-muted">
+                                <strong>Anton</strong><br>
+                                Software Engineer
+                              </figcaption>
+                            </figure>
+                            <blockquote class="blockquote">
+                                <p><div class="quot">&ldquo;</div>I asked Sofia to provide me with a set of icons for my personal project. She provided me with a full set of nicely designed icons which fit perfectly onto my layout. Her attention to detail and understanding of the project's aesthetic made the icons a seamless addition to the design. She was very responsive and open to feedback, making adjustments quickly and efficiently to ensure everything was just right. The entire process was smooth, and the final result pleasantly surprised me. I highly recommend Sofia for her creativity  and ability to deliver exactly what’s needed.<div class="quot">&rdquo;</div></p>
+                              </blockquote>
+                                 
+                            </figure>
+                      </div>    
                         
                       </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselImages" data-bs-slide="prev">
@@ -170,20 +191,20 @@
                 </div>
 </div>
       <div class="row">
-        <div class="col-sm-12 col-lg-12">
-              <div class="card">
+        <div class="col-sm-12 col-lg-10 offset-lg-1">
+              <div class="card text-center">
                     <h5 class="card-header">Let's collaborate!</h5>
                     <div class="card-body">
-                      <h5 class="card-title">I am looking for the new challenges and I would love to hear about your projects.</h5>
-                      <h5 class="card-text">You may always reach me via e-mail (preferred), social media (Linkedin) or messengers</h5>
+                      <p class="card-title">I am looking for the new challenges and I would love to hear about your projects.</p>
+                      <p class="card-title"><strong>You may always reach me via e-mail (preferred), social media (Linkedin) or messengers.</strong></p>
                      
                       <div class="row">
                         <div class="col-md-4 offset-md-4">
                           <div class="d-flex justify-content-between">
-                            <a href="&#109;&#97;ilt&#111;&#58;%&#54;Ci&#37;73i%6&#69;a&#46;sofy%61&#64;g&#109;a&#105;l&#46;%63om"><img class="tilt" src="icons/icon_email3.svg" width="75vh"/></a>
-                            <a href="https://linkedin.com/in/sofia-lisina-7360b61a9" target="_blank"><img class="tilt" src="icons/icon_linkedin2.svg" width="75vh"/></a>
-                            <a href="https://wa.me/358449231156" target="_blank"><img class="tilt" src="icons/icon_whatsapp.svg" width="75vh"/></a>
-                            <a href="https://t.me/sofialisina" target="_blank"><img class="tilt" src="icons/icon_telegram.svg" width="75vh"/></a>
+                            <a href="&#109;&#97;ilt&#111;&#58;%&#54;Ci&#37;73i%6&#69;a&#46;sofy%61&#64;g&#109;a&#105;l&#46;%63om"><img class="tilt" src="icons/icon_email3.svg" width="50em"/></a>
+                            <a href="https://linkedin.com/in/sofia-lisina-7360b61a9" target="_blank"><img class="tilt" src="icons/icon_linkedin2.svg" width="50em"/></a>
+                            <a href="https://wa.me/358449231156" target="_blank"><img class="tilt" src="icons/icon_whatsapp.svg" width="50em"/></a>
+                            <a href="https://t.me/sofialisina" target="_blank"><img class="tilt" src="icons/icon_telegram.svg" width="50em"/></a>
     
                           </div>
                         </div>
