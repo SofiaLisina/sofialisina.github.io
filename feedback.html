@@ -141,7 +141,7 @@
                                     </figcaption>
                                   </figure>
                                   <blockquote class="blockquote">
-                                      <p><div class="quot">&ldquo;</div>I was looking for someone who can make bright stickers &ndash; as we love to make gifts to loved ones and we wanted our gifts to be recognizable and memorable. Sofia offered several sticker design options, and we chose the one we all liked the most. Sofia skillfully played with our family name and the fox animal, thus emphasizing our authenticity. It was a pleasure to work with Sofia. She listened to our wishes and provided suggestions on the design. We will contact her again.<div class="quot">&rdquo;</div></p>
+                                      <p><div class="quot">&ldquo;</div>I was looking for someone who can make bright stickers for our family &ndash; as we love to make gifts to loved ones and we wanted our gifts to be recognizable and memorable. Sofia offered several sticker design options, and we chose the one we all liked the most. Sofia skillfully played with our family name and the fox animal, thus emphasizing our authenticity. It was a pleasure to work with Sofia. She listened to our wishes and provided suggestions on the design. We will contact her again.<div class="quot">&rdquo;</div></p>
                                     </blockquote>
                                         
                                   </figure>
@@ -220,5 +220,20 @@
 	</main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script>
+    function scaleTextToFit() {
+      const textElement = document.querySelector('.scaled-text');
+      const boxElement = document.querySelector('.text-box');
+      const boxHeight = boxElement.clientHeight;
+      const textHeight = textElement.clientHeight;
 
+      if (textHeight > boxHeight) {
+        const scaleFactor = boxHeight / textHeight;
+        textElement.style.transform = `scale(${scaleFactor})`;
+      }
+    }
+
+    window.addEventListener('resize', scaleTextToFit);
+    scaleTextToFit();
+  </script>
 </html>
